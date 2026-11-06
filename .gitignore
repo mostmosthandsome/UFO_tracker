@@ -27,3 +27,19 @@ model/
 
 # Downloaded or converted motion datasets are distributed separately.
 ufo/data/*.pkl
+
+# Local datasets; keep conversion scripts, manifests and documentation.
+/Data/**/*.pkl
+/Data/**/*.pickle
+/Data/**/*.csv
+/Data/**/*.npz
+/Data/**/*.npy
+/Data/**/*.pt
+/Data/**/*.h5
+/Data/**/*.hdf5
+/Data/**/*.zip
+/Data/**/*.tar
+/Data/**/*.tar.gz
+/Data/**/*.7z
+/Data/**/conversion_report.json
+/Data/**/validation_report.json

@@ -127,6 +127,7 @@ uv run hf download xuewang/ufo-g1-policy --local-dir model
 
 ## 更多文档
 
+- [DR02 接入](docs/DR02.md)：从 `whole_body_tracking` 迁移的 23 自由度模型、动作转换与训练命令。
 - [训练与推理](docs/TRAIN_INFERENCE.md)：默认配置、评估、checkpoint 和推理参数。
 - [机器人与数据适配](docs/ROBOT_ADAPTATION.md)：通过 `robot_setup` 添加机器人、导入已重定向的动作数据。
 - [代码结构](docs/ARCHITECTURE.md)：目录与模块职责。

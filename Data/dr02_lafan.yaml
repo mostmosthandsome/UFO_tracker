@@ -1,0 +1,7 @@
+robot_config: /home/handsome/repo/handsome/research/BFM/UFO/configs/robots/dr02_23dof.yaml
+datasets:
+- name: dr02_lafan
+  format: ufo_pkl
+  weight: 1.0
+  train_path: dr02_lafan_10s_clipped.pkl
+  inference_path: dr02_lafan_full.pkl

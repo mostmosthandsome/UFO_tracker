@@ -1,0 +1,13 @@
+robot_config: configs/robots/dr02_23dof.yaml
+datasets:
+- name: dr02_local
+  format: robot_state_npz
+  source_path:
+  - cache/dr02_robot_state/0-ceshoufan.npz
+  - cache/dr02_robot_state/amass_cartwheel_49_06_poses.npz
+  weight: 1.0
+  auto_build:
+    train_clip_seconds: 10.0
+    clip_stride_seconds: 10.0
+    keep_short: true
+    min_clip_seconds: 1.0
